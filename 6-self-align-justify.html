@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6: Self Align/Justify</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Markazi+Text:wght@700&amp;display=swap);
+        body {
+            background-color: #02A98F;
+            color: #fff;
+            direction: rtl;
+            font-family: 'Markazi Text', serif;
+            font-size: 1.5em;
+            padding: 0 10vh;
+        }
+        body>div {
+            border: 3px solid orange;
+            height: 400px;
+        }
+        body>div>div {
+            background-color: #008974;
+            border-radius: 15px;
+            text-align: center;
+            width: 250px;
+        }
+        body>div>div p {
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* الكود يبدأ هنا */
+        .container {
+            display: grid;
+        }
+        .element {
+            align-self: center;
+            justify-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>توسيط المحتوى عمودياً</h1>
+    <h2>الطريقة السادسة: Self Align/Justify</h2>
+
+    <!-- الكود يبدأ هنا -->
+    <div class="container">
+        <div class="element">
+            <p>كبسولات برمجية</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
